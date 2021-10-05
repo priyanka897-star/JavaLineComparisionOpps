@@ -1,5 +1,5 @@
 package javalinecomparision;
 
 public class Point {
-	double x, y ;
+	double x, y;
 }

@@ -13,7 +13,7 @@ public  class Line {
 	public   void compare(Double lineLength1, Double lineLength2) {
 		
 		// TODO Auto-generated method stub
-		if(lineLength1.compareTo(lineLength2) == 0) {
+		if(lineLength1.equals(lineLength2)) {
 			System.out.println("Line 1 and Line2 are equal");
 		}
 		else if(lineLength1.compareTo(lineLength2) > 0) {
