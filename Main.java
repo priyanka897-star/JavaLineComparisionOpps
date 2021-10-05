@@ -28,7 +28,7 @@ public class Main {
 		p4.x = ip.inputInteger();
 		System.out.println("Enter y value for point 4");
 		p4.y = ip.inputInteger();
-	    ip.scannerClose();
+	        ip.scannerClose();
 		
 		Line line1 = new Line();
 		line1.p1 = p1;
@@ -44,12 +44,10 @@ public class Main {
 		Double lineLength2 = line1.getLengthLine2(p3, p4);
 		System.out.println("Line 1 Length:" +lineLength1);
 		System.out.println("Line 2 Length:" +lineLength2);
-	    if (lineLength1.equals(lineLength2))
-             System.out.println("Line1 and Line2 are equal");
-         
-         else 
-       	  System.out.println("Line1 and Line2 are not equal");
-       	  
+	        if (lineLength1.equals(lineLength2))
+                   System.out.println("Line1 and Line2 are equal");
+               else 
+       	           System.out.println("Line1 and Line2 are not equal");
     }
 	
 }
