@@ -39,7 +39,7 @@ public class Main {
 		line2.p4 = p4;
 		
 		Double lineLength1 = line1.getLengthLine1(p1, p2);
-		Double lineLength2 = line1.getLengthLine1(p1, p2);
+		Double lineLength2 = line1.getLengthLine1(p3, p4);
 		System.out.println("Line 1 Length:" +lineLength1);
 		System.out.println("Line 2 Length:" +lineLength2);
 		Line line = new Line();
