@@ -38,21 +38,21 @@ public class Main {
 		line2.p3 = p3;
 		line2.p4 = p4;
 		
-		
-		
 		Double lineLength1 = line1.getLengthLine1(p1, p2);
-		Double lineLength2 = line1.getLengthLine2(p3, p4);
+		Double lineLength2 = line1.getLengthLine1(p1, p2);
 		System.out.println("Line 1 Length:" +lineLength1);
 		System.out.println("Line 2 Length:" +lineLength2);
-	    if (lineLength1.equals(lineLength2))
-             System.out.println("Line1 and Line2 are equal");
-         
-         else 
-       	  System.out.println("Line1 and Line2 are not equal");
-       	  
-    }
+		Line line = new Line();
+		line.compare(lineLength1,lineLength2);
+ }
 	
 }
+
+	
+	
+
+
+
 
 
 
