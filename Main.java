@@ -28,7 +28,7 @@ public class Main {
 		p4.x = ip.inputInteger();
 		System.out.println("Enter y value for point 4");
 		p4.y = ip.inputInteger();
-	    ip.scannerClose();
+	        ip.scannerClose();
 		
 		Line line1 = new Line();
 		line1.p1 = p1;
@@ -45,7 +45,6 @@ public class Main {
 		Line line = new Line();
 		line.compare(lineLength1,lineLength2);
  }
-	
 }
 
 	
