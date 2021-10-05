@@ -20,8 +20,8 @@ public class InputScanner {
 		return scanner.nextFloat();
 	}
 
-   public void scannerClose() {
+       public void scannerClose() {
 	 scanner.close();
-	 }
+       }
 }
 
