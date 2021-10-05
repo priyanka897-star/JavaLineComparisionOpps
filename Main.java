@@ -1,7 +1,6 @@
 package javalinecomparision;
 
 public class Main {
-	
      public static void main(String[] args) {
 		
 		Point p1 = new Point();
@@ -16,7 +15,7 @@ public class Main {
 		p2.x = ip.inputInteger();
 		System.out.println("Enter y value for point 2");
 		p2.y = ip.inputInteger();
-	    ip.scannerClose();
+	        ip.scannerClose();
 		
 		Line line = new Line();
 		line.p1 = p1;
